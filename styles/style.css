@@ -1,36 +1,76 @@
 /* Font and bg */
 body{
     font-family: "Roboto", Arial;
-    background-color: rgba(128, 128, 128, 0.422);
+    background-color: #F6F8F9;
 }
 
-/* Pag setting */
+/* General rules */
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
+     box-sizing: border-box;
+} 
 
-
-header{
-    margin-bottom: 10px;
-}
+/* Header*/
 .container{
     border: 3px;
     padding: 5px;
     background-color: white;
-    margin-top: 0;
-    
+    margin-top: 0;   
 }
+header{
+    margin-bottom: 10px;
+}
+
+/* Logo settings */
 .logo-image{
     float: right;
     padding-bottom: 0;
 }
 .logo-text{
     float: left;
+    font-weight: 900;
+    font-size: 20px;
     
 }
-
 .container{
     display: flex;
+}
+
+.quadrato{
+    width: 900px;
+    height: 700px;
+    background-color:white;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 1%;
+}
+
+/* Text Utility */
+.text1{
+    border:5px solid #47ADF2;
+    background-color: #47ADF2;
+    color: white;
+    border-style: solid;
+    border-width: 2px 3px;
+    padding-top: 5px;
+    width: 120px;
+    height: 30px;
+    margin: 20px;
+    margin-left: 90px;
+    border-radius: 10%;
+    text-align: center;
+}
+.text2{
+    border:5px solid rgba(128, 128, 128, 0.148);
+    background-color:#FFFFFF;
+    color: rgba(128, 128, 128, 0.459);
+    border-style: solid;
+    border-width: 2px 3px;
+    width: 120%;
+    height: 150%;
+    margin: -20%;
+    margin-left: 115%;
+    border-radius: 10%;
+    text-align: center; 
 }
