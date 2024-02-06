@@ -1,14 +1,23 @@
+/* Font and bg */
 body{
     font-family: "Roboto", Arial;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.422);
+}
+
+/* Pag setting */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 header{
     margin-bottom: 10px;
 }
 .container{
-    border: 3px solid black;
+    border: 3px;
     padding: 5px;
     background-color: white;
+    margin-top: 0;
     
 }
 .logo-image{
