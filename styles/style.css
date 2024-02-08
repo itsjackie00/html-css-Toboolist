@@ -11,41 +11,20 @@ body{
     background-color: var(--color-color-main-bg);
     color: var(--color-color-primary-text);
 }
-
-:root {
-    --color-bg-color-white: #ffffff;
-	--color-color-main-bg: #f6f8f9;
-	--color-color-editorial: #14aaf5;
-	--color-color-goals: #ab5de6;
-	--color-color-recruiting: #2cc6ab;
-	--color-color-mobile: #ff9b00;
-	--color-color-website: #ec4a9d;
-	--color-color-sales: #a3d116;
-	--color-color-delet: #ff4343;
-	--color-color-primary-text: #000000;
-}
-
 header{
     background-color: var(--color-bg-color-white);
-    padding: 10px;
+    width: 100%;
 }
-/* utility */
-.default-pad{
-    padding: 10px;
-}
-
 header,main,aside{
     background-color: var(--color-bg-color-white);
     padding: 30px;
 
 }
-
 header,h1, header img{
     display: inline-block;
     vertical-align: middle;
-    font-size: 2em;
+    font-size: 40px;
 }
-
 main{
     max-width: 1200px;
     margin: 40px auto;
@@ -62,6 +41,24 @@ aside{
     padding-top: 30px;
 }
 
+:root {
+    --color-bg-color-white: #ffffff;
+	--color-color-main-bg: #f6f8f9;
+	--color-color-editorial: #14aaf5;
+	--color-color-goals: #ab5de6;
+	--color-color-recruiting: #2cc6ab;
+	--color-color-mobile: #ff9b00;
+	--color-color-website: #ec4a9d;
+	--color-color-sales: #a3d116;
+	--color-color-delet: #ff4343;
+	--color-color-primary-text: #000000;
+}
+
+/* utility */
+.default-pad{
+    padding: 10px;
+}
+
 /* buttons */
 .buttons{
     border-bottom: 2px solid var(--color-color-main-bg);
@@ -73,7 +70,6 @@ aside{
     color: #c0c0c0;
     border: 1px solid #c0c0c0;
 }
-
 .btn.blue{
     background-color: var(--color-color-editorial);
     color: var(--color-color-main-bg);
