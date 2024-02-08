@@ -50,8 +50,8 @@ main{
     background-color: var(--color-color-main-bg);
 }
 
-/* buttoms */
-.buttoms{
+/* buttons */
+.buttons{
     border-bottom: 2px solid var(--color-bg-color-white);
 }
 .btn{
