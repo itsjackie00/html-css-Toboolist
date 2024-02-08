@@ -31,7 +31,7 @@ header{
 }
 /* utility */
 .default-pad{
-    padding: 30px;
+    padding: 10px;
 }
 
 header,main{
@@ -89,5 +89,41 @@ li{
     border: 1px solid var(--color-color-recruiting);
     border-radius: 50%;
     color:var(--color-color-recruiting);
+}
+.red-circle{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid var(--color-color-delet);
+    border-radius: 50%;
+    color:var(--color-color-delet);
+}
+.delet{
+    color: var(--color-color-delet);
+}
 
+/* badge */
+.badge{
+    border-radius: 16px;
+    padding: 8px 10px;
+    font-size: 10px;
+    margin-left: 10px;
+    color: var(--color-bg-color-white);
+}
+.editorials{
+    background-color: var(--color-color-editorial);
+}
+.goals{
+    background-color: var(--color-color-goals);
+}
+.recruiting{
+    background-color: var(--color-color-recruiting);
+}
+.mobile{
+    background-color: var(--color-color-mobile);
+}
+span{
+    line-height: 40px;
 }
