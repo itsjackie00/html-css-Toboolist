@@ -1,0 +1,45 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general */
+body{
+    font-family: roboto;
+    background-color: var(--color-color-main-bg);
+    color: var(--color-color-primary-text);
+}
+:root {
+	--color-bg-color-white: #ffffff;
+	--color-color-main-bg: #f6f8f9;
+	--color-color-editorial: #14aaf5;
+	--color-color-goals: #ab5de6;
+	--color-color-recruiting: #2cc6ab;
+	--color-color-mobile: #ff9b00;
+	--color-color-website: #ec4a9d;
+	--color-color-sales: #a3d116;
+	--color-color-delet: #ff4343;
+	--color-color-primary-text: #000000;
+    padding: 30px;
+}
+
+header,main{
+    background-color: var(--color-color-main-bg);
+    padding: 30px;
+
+}
+
+header,h1, header img{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2em;
+}
+
+main{
+    max-width: 1200px;
+    margin: 40px auto;
+    border-radius: 10px;
+    background-color: var(--color-color-main-bg);
+}
