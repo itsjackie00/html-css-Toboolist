@@ -52,6 +52,12 @@ main{
     border-radius: 10px;
     background-color: var(--color-bg-color-white);
 }
+span{
+    line-height: 40px;
+}
+li{
+    list-style: none;
+}
 
 /* buttons */
 .buttons{
@@ -73,10 +79,6 @@ main{
 .task ul li h3,
 .task ul li span{
     display: inline-block;
-}
-
-li{
-    list-style: none;
 }
 
 /* cirle */
@@ -122,8 +124,5 @@ li{
     background-color: var(--color-color-recruiting);
 }
 .mobile{
-    background-color: var(--color-color-mobile);
-}
-span{
-    line-height: 40px;
+    background-color: var;
 }
